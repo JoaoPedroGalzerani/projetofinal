@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+#bc
+{
+  background-color: #f9f9f8;
+}
+@font-face {
+  font-family: sans;
+  src: url(fonte/Qdbettercomicsansalternates-z8823.ttf);
+}
+
+#cabecalho {
+  width: 100%;
+  height: 120px;
+  background-color: #a6d0dd;
+  display: flex;
+}
+.icon1
+{
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 16px;
+
+}
+.icon
+{
+  height: 40px;
+  margin-top: 13px;
+  margin-left: 16px;
+
+}
+.icons
+{
+  height: 40px;
+  margin-left: -15px;
+  background-color: #f9f9f8;
+}
+.cabecalho2 {
+  width: 100%;
+  height: 80px;
+  background-color: #b9e1ee;
+  align-items: center;
+}
+.circle
+{
+  margin-left: 340px;
+  margin-top: 30px;
+}
+.circles
+{
+  margin-top: -290px;
+  display: flex;
+  margin-left: 320px;
+  height: 49px;
+  opacity: 80%;
+}
+
+.titles 
+{
+ margin-left: 32px;
+ margin-top: 32px;
+ background-color: #f9f9f8;
+ display:flex
+}
+h1 {
+  color: white;
+  font-family: sans;
+  margin-left: 16px;
+  margin-top: 30px;
+  font-size: 40pt;
+
+}
+h2 {
+  color: #666161;
+  font-family: sans;
+
+}
+
+h3 {
+  color: #666161;
+  font-family: sans;
+  font-size: 38pt;
+  margin-left: 230px;
+  margin-top: -84px;
+}
+
+h4 {
+  color: #666161;
+  font-family: sans;
+  margin-left: 220px;
+  font-size: 23pt;
+  margin-top: 8px;
+}
+
+h5 {
+  color: #666161;
+  font-family: sans;
+  margin-left: 220px;
+  margin-top: 2.5px;
+  font-size: 15pt;
+}
+
+h6 {
+  color: #666161;
+  font-family: sans;
+  font-size: 30pt;
+}
+
+h7 {
+  font-family: sans;
+  font-size: 25pt;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 16px;
+}
+
+.topics {
+  width: 28%;
+  margin-left: 32px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #ffd3b0;
+  margin-top: 100px;
+}
+
+#search {
+  border-radius: 50px;
+  width: 60%;
+  height: 40px;
+  margin-left: 150px;
+  margin-top: 40px;
+  display: flex;
+}
+
+#release {
+
+  background-color: #f9f9f8;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  height: 500px;
+  justify-content: space-between;
+
+}
+
+#promotions {
+  background-color: #f9f9f8;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  height: 500px;
+  justify-content: space-between;
+
+}
+
+#geek {
+  background-color: #f9f9f8;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  height: 500px;
+  justify-content: space-between;
+}
+
+#cart {
+  background-color: #f9f9f8;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  height: 1000px;
+  justify-content: space-between;
+}
+
+#shipping {
+  height: 500px;
+  background-color: #f9f9f8;
+  width: 100%;
+}
+
+
+
+.imagemproduto {
+  margin-right: 10px;
+  margin-top: -100px;
+  margin-left: 16px;
+  height: 200px;
+  width: 100%;
+
+}
+
+#cabecalho2 {
+  color: #fff;
+  height: 102px;
+  padding: 11px;
+  width: 100%;
+  font-family: sans;
+  src: url(fonte/Qdbettercomicsansalternates-z8823.ttf);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  justify-content: space-evenly;
+}
+
+nav a {
+  color: #fff;
+  padding: 15px;
+}
+
+.containerlogin {
+  background-color: #a6d0dd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: blue;
+  color: white;
+}
+
+.iconeperfil {
+  height: 100px;
+  width: 100%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a6d0dd;
+  color: #fff;
+  padding: 20px;
+  height: auto;
+  
+}
+.AboutUs{
+  font-size: 20pt;
+  text-align: center;
+  background-color: #b9e1ee;
+  width: 100%;
+}
+.TitleMedias {
+  text-align: left;
+  color: #666161;
+  font-family: sans;
+  margin-left: 220px;
+  font-size: 300px;
+  
+}
+.TitleWIT {
+  text-align: left;
+  color: #666161;
+  font-family: sans;
+  font-size: 23pt;
+}
+
+.SocialMedias p, .WhatIsThis p {
+  margin: 5px 0;
+  font-size: 25pt;
+  align-items: center;
+}
+
+.TitleFeedback {
+  margin-top: 10px;
+  color: #666161;
+  font-family: sans;
+  margin-left: 220px;
+  font-size: 23pt;
+}
+h8
+{
+  color: #666161;
+  font-family: sans;
+  font-size: 80px;
+  margin-left: 32px;
+}
+h9
+{
+  color: #666161;
+  font-family: sans;
+  font-size: 30px;
+  margin-left: 32px;
+  display: flex;
+}
+.inp
+{
+  margin-left: 32px;
+  width: 670px;
+  height: 30px;
+  border-radius: 10px;
+}
+.socialm 
+{
+  height: 30px;
+  margin-top: 16px;
+}
+.topics1 {
+  width: 30%;
+  height: 80px;
+  margin-top: -200px;
+  margin-left: 1002px;
+  border-radius: 10px;
+  background-color:  #666161;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+  color: white;
+}
+.topics2 {
+  width: 30%;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: 1002px;
+  border-radius: 10px;
+  background-color:  #666161;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+  color: white;
+}
+.feed 
+{
+  border-radius: 5px;
+  height: 30px;
+  width: 90%;
+}
+a
+{
+  text-decoration:none;
+  color: white;
+  text-decoration-line: none;
+  align-items: center;
+}
